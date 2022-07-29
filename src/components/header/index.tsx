@@ -7,8 +7,8 @@ export function Header(){
            <h1>WebSneaker</h1>
            
            <ul>
-                <li><Link to={`/`}>Pagina Inicial</Link></li>
-                <li><Link to={`/Produtos`}>Produtos</Link></li>
+                <li><Link className="link" to={`/`}>Pagina Inicial</Link></li>
+                <li><Link className="link" to={`/Produtos`}>Produtos</Link></li>
                 <li>Ofertas</li>
                 <li>Contato</li>
            </ul> 

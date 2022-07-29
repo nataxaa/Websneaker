@@ -13,5 +13,9 @@ export const GlobalStyle = createGlobalStyle`
   font-family:Poppins, sans-serif ;
 }
 
+.link{
+  text-decoration:none ;
+  color:white ;
+}
 
 `

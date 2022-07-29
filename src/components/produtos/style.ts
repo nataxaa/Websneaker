@@ -34,9 +34,9 @@ export const Container = styled.div`
             margin-top:2rem ;
             padding-bottom:9rem ;
         }
+        
         button{
             width:6rem ;
-            margin-top:-3rem ;
             background-color:#E00029 ;
             border:none ;
             color:white ;

@@ -3,6 +3,7 @@ import imagem1 from '../../images/nike.png'
 import imagem2 from '../../images/adidas.png'
 import imagem3 from '../../images/puma.png'
 import imagem4 from '../../images/new.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -15,7 +16,7 @@ export function Produtos(){
                 <div className="card-nike">
                     <img src={imagem1} alt="" />
                     <span>Total de Produtos: </span>
-                    <button>Nike</button>
+                    <Link to='/NikeProdutos'><button>Nike</button></Link>
                 </div>
 
                 <div className="card-adidas">
