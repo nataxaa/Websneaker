@@ -6,12 +6,13 @@ export const Container = styled.div`
     padding-top:10rem ;
     display:grid ;
     grid-template-columns:repeat(3, 1fr) ;
-    gap:10px;
+    gap:20px;
     width:80rem ;
     margin:0 auto ;
     
     div.card{
         background-color: #DADDD8 ;
+        box-shadow: 5px 5px 5px black;
         display:flex ;
         flex-direction:column ;
         align-items:center ;

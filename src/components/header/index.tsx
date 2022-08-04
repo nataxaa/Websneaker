@@ -1,7 +1,12 @@
 import { Container } from "./style";
 import { Link } from "react-router-dom";
+import {FiShoppingCart} from 'react-icons/fi'
 
-export function Header(){
+interface headerProps{
+    onOpenModal:()=>void
+}
+
+export function Header({onOpenModal}:headerProps){
     return(
         <Container>
            <h1>WebSneaker</h1>
@@ -11,8 +16,10 @@ export function Header(){
                 <li><Link className="link" to={`/Produtos`}>Produtos</Link></li>
                 <li>Ofertas</li>
                 <li>Contato</li>
+                <button onClick={onOpenModal}><FiShoppingCart className="icon-shop"/></button>
            </ul> 
         </Container>
 
     )
+    
 }
