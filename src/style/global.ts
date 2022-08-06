@@ -4,7 +4,7 @@ import {createGlobalStyle} from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
 :root{
-  --color-header: #7A0000 ;
+  --color-produto-page: #280112;
 }
 
 *{
@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 .react-modal-overlay {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     bottom: 0;

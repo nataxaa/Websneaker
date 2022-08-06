@@ -12,9 +12,19 @@ h1{
     margin-bottom:12px ;
 }
 
+strong.icon{
+    position:relative ;
+    top:-2rem ;
+    margin-left:14rem ;
+    font-size:1.3rem ;
+    cursor: pointer;
+}
+
 img{
     width:7rem ;
     padding-left:2rem ;
+    position:relative ;
+    top:-0.5rem ;
 }
 div.produto{
     background-color:#FF570A ;
@@ -39,7 +49,7 @@ strong{
 }
 button{
     position:relative ;
-    left:12rem ;
+    left:14.4rem ;
     margin-top:10px ;
     padding:10px;
     border-radius:10px ;

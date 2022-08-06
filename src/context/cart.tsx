@@ -53,7 +53,7 @@ export function CartProvider({children}:any){
       console.log(productsCart)
 
     return(
-        <CartContext.Provider value={{totalNike, addProduct, totalAdidas, totalNew, totalPuma, productsCart, total}}>
+        <CartContext.Provider value={{totalNike, addProduct, totalAdidas, totalNew, totalPuma, productsCart, total, quant}}>
             {children}
         </CartContext.Provider>
 

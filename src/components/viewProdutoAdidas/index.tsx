@@ -1,8 +1,9 @@
 import { adidasProdutos } from "../../data/Data";
 import { Container } from "./style";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../../context/cart";
+import { FiArrowLeft } from "react-icons/fi";
 
 
 export function ViewprodutoAdidas(){
@@ -13,6 +14,7 @@ export function ViewprodutoAdidas(){
     const {addProduct, productsCart}:any = useContext(CartContext)
     function handleAddProduto(id:any, name:any, image:any, price:any, size:any){
         addProduct(id, name, image, price, size)
+        alert('Produto Adicionado')
     }
 
     const item = produtos.find((products)=> products.id == id as unknown as number)
@@ -20,6 +22,8 @@ export function ViewprodutoAdidas(){
 
     return(
         <Container>
+
+            <Link className="back"  to='/AdidasProdutos'><FiArrowLeft/></Link>
             <div className="card-item">
             
             <img src={item?.image} alt="imagem do produto" />

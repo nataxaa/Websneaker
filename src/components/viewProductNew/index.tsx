@@ -1,8 +1,9 @@
 import { newProdutos } from "../../data/Data";
 import { Container } from "./style";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../../context/cart";
+import {FiArrowLeft} from 'react-icons/fi'
 
 
 export function ViewprodutoNew(){
@@ -15,11 +16,13 @@ export function ViewprodutoNew(){
    
     function handleAddProduto(id:any, name:any, image:any, price:any, size:any){
         addProduct(id, name, image, price, size)
-        console.log(productsCart)
+        alert('Produto Adicionado')
     }
 
     return(
         <Container>
+
+            <Link className="back"  to='/NewProdutos'><FiArrowLeft/></Link>
             <div className="card-item">
             
             <img src={item?.image} alt="imagem do produto" />

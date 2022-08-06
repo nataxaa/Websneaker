@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import { AdidasPage } from "./components/adidasPage";
+import { Contato } from "./components/Contato";
 import { Header } from './components/header';
 import { NewPage } from "./components/newBalancePage";
 import { NikePage } from "./components/nikePage";
+import { NossaHistoria } from "./components/NossaHistoria";
 import { PaginaInicial } from './components/paginainicial';
 import { Produtos } from "./components/produtos";
 import { PumasPage } from "./components/pumaPage";
@@ -44,6 +46,8 @@ export function App() {
           <Route path="/viewprodutoAdidas/:id" element={<ViewprodutoAdidas/>}/>
           <Route path="/viewprodutoPuma/:id" element={<ViewprodutoPuma/>}/>
           <Route path="/viewprodutoNew/:id" element={<ViewprodutoNew/>}/>
+          <Route path="/Contato" element={<Contato/>}/>
+          <Route path="/Nossahistoria" element={<NossaHistoria/>}/>
         </Routes>
       </Router>
       <ShopCartModal 

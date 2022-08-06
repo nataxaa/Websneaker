@@ -21,7 +21,7 @@ export function NikePage(){
     
     return(
         <Container>
-
+            <div className="Cards">
             {produtos.map((prod:produtoProps)=>(
                 <div className="card">
                     <img src={prod.image} alt="imagem do produto"/>
@@ -31,6 +31,7 @@ export function NikePage(){
                     
                 </div>
             ))}
+            </div>
         </Container>
     )
 }

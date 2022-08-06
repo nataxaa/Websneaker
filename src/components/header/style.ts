@@ -4,7 +4,7 @@ export const Container = styled.header`
 
 
 width:100% ;
-background-color: var(--color-header);
+;
 position:fixed ;
 display:flex ;
 justify-content:space-around ;
@@ -20,17 +20,15 @@ ul{
 }
 button{
     position:relative ;
-    top:4rem ;
-    left:8rem ;
-    padding:12px ;
-    border-radius:30px ;
+    
+    top: -10px ;
+    left:7rem ;
+    background:none ;
     height:48px ;
     cursor: pointer;
-    background-color:#FF570A ;
     border:none ;
     color:white ;
     :hover{
-        
         opacity:0.8 ;
     }
 }
@@ -41,5 +39,13 @@ button{
     position:relative ;
 }
 
+span{
+    
+    background-color:#FEF6C9 ;
+    color:black ;
+    padding:0.5px 5px ;
+    border-radius:60px ;
+    font-size:12px ;
+}
 
 `

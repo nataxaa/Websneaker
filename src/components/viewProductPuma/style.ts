@@ -4,6 +4,21 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 padding-top:3rem ;
+background-color:#DE172E ;
+height:598px ;
+
+.back{
+    position:relative ;
+    top:2.4rem ;
+    left:3rem ;
+    font-size:1.5rem ;
+    background-color:red ;
+    border-radius:30px ;
+    align-items:center ;
+    padding:10px 10px 2px 10px;
+    z-index:1 ;
+    color:white ;
+}
 
 div.card-item{
     display:grid ;

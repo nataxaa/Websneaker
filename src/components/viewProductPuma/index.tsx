@@ -1,8 +1,9 @@
 import { pumaProdutos } from "../../data/Data";
 import { Container } from "./style";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../../context/cart";
+import { FiArrowLeft } from "react-icons/fi";
 
 
 export function ViewprodutoPuma(){
@@ -13,7 +14,7 @@ export function ViewprodutoPuma(){
     const {addProduct, productsCart}:any = useContext(CartContext)
     function handleAddProduto(id:any, name:any, image:any, price:any, size:any){
         addProduct(id, name, image, price, size)
-        console.log(productsCart)
+        alert('Produto Adicionado')
     }
 
     const item = produtos.find((products)=> products.id == id as unknown as number)
@@ -21,6 +22,7 @@ export function ViewprodutoPuma(){
 
     return(
         <Container>
+            <Link className="back"  to='/PumaProdutos'><FiArrowLeft/></Link>
             <div className="card-item">
             
             <img src={item?.image} alt="imagem do produto" />

@@ -19,6 +19,7 @@ export function AdidasPage(){
     
     return(
         <Container>
+            <div className="Cards">
             {produtos.map((prod:produtoProps)=>(
                 <div className="card">
                     <img src={prod.image} alt="imagem do produto"/>
@@ -26,6 +27,7 @@ export function AdidasPage(){
                     <button><Link className="link" to={`/viewprodutoAdidas/${prod.id}`}>Ver Produto</Link></button>
                 </div>
             ))}
+            </div>
         </Container>
     )
 }

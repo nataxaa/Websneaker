@@ -19,6 +19,8 @@ export function PumasPage(){
     
     return(
         <Container>
+            <div className="Cards">
+
             {produtos.map((prod:produtoProps)=>(
                 <div className="card">
                     <img src={prod.image} alt="imagem do produto"/>
@@ -26,6 +28,7 @@ export function PumasPage(){
                     <button><Link className="link" to={`/viewprodutoPuma/${prod.id}`}>Ver Produto</Link></button>
                 </div>
             ))}
+            </div>
         </Container>
     )
 }

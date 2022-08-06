@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import Modal from 'react-modal'
 import { CartContext } from '../../context/cart';
 import { Container } from './style';
-
+import {FiX} from 'react-icons/fi'
 
 Modal.setAppElement('#root');
 
@@ -25,6 +25,7 @@ export function ShopCartModal({isOpen, onRequestClose}:modalProps){
         className="react-modal-content"
         >
             <Container>
+                <strong className='icon' onClick={onRequestClose}><FiX/></strong>
                 <h1>Meus Produtos</h1>
                 {productsCart.map((prod:any)=>(
                     <div className='produto'>
