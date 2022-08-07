@@ -43,9 +43,9 @@ span{
     
     background-color:#FEF6C9 ;
     color:black ;
-    padding:0.5px 5px ;
-    border-radius:60px ;
-    font-size:12px ;
+    padding:0.3px 3px ;
+    border-radius:70px ;
+    font-size:10px ;
 }
 
 `

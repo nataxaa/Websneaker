@@ -25,7 +25,7 @@ export const Container = styled.div`
     div.card-nike{
         width:18rem ;
         height:25rem ;
-        background-color:#FF570A ;
+        background-color:#A30000 ;
         margin-right:10px ;
         border-radius:10px ;
         img{
@@ -54,7 +54,7 @@ export const Container = styled.div`
     div.card-adidas{
         width:18rem ;
         height:25rem ;
-        background-color:#FF570A ;
+        background-color:#A30000 ;
         margin-right:10px ;
         border-radius:10px ;
         img{
@@ -81,7 +81,7 @@ export const Container = styled.div`
     div.card-puma{
         width:18rem ;
         height:25rem ;
-        background-color:#FF570A ;
+        background-color:#A30000 ;
         margin-right:10px ;
         border-radius:10px ;
         img{
@@ -108,7 +108,7 @@ export const Container = styled.div`
     div.card-balance{
         width:18rem ;
         height:25rem ;
-        background-color:#FF570A ;
+        background-color:#A30000 ;
         margin-right:10px ;
         border-radius:10px ;
         img{
