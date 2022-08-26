@@ -2,7 +2,7 @@
   <img alt="Barber" title="#delicinha" src="src/images/nike-icon.png" width="150px" borderRadius="20px" />
 </h1>
 
-# GitHub Clone
+# WebSneaker
 
 <p align="center">
   <a href="https://github.com/nataxaa">
@@ -34,7 +34,7 @@ Projeto de uma loja de sapatos que possibilita escolha pela marca e adicionar os
 ## 🌐 Preview
 
 <h1 align="center">
-    <img src="github/loja_tenis.gif" />
+    <img src="github/tenis_novo.gif" />
 </h1>
 
 ## 🚀 Tecnologias
