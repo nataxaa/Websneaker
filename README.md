@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Barber" title="#delicinha" src="src/images/nike-icon.png" width="150px" borderRadius="20px" />
+  <img alt="Barber" title="#delicinha" src="src/images/nike-icon.png" width="250px" borderRadius="20px" />
 </h1>
 
 # WebSneaker
